@@ -20,7 +20,7 @@ from contextlib import asynccontextmanager
 
 ACCESS_TOKEN = os.getenv("LINE_ACCESS_TOKEN", "FfVoDvJvHY3kYAqiA/Rgr32EBpgyDfssfV5aX5L+8Zry5vf1yyc9qRcqkRAru52gJzYQJlgd4jKZIFoMo/iQlLPRsz+S6NO12SrIYFn2UzCV/iOv7wIdJGnVVgNcn+rem7ej+0FGKOdzQX4/VYGZuwdB04t89/1O/w1cDnyilFU=")
 CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "99a40583e525a2daf0494e3198c45907")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCR8-cNrPtbFs9rTVl49BBGcGHBw8O3SRY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAc_q2XhfyjjDzwiK3mDnQ9y4BIvfOJeGM")
 
 # Setup LINE API
 line_bot_api = LineBotApi(ACCESS_TOKEN)
